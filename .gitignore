@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+.env.*
+
+# virtualenv
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+env.bak/
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints
+
+# PyTorch model artifacts
+*.pt
+*.pth
+models/
+weights/
+checkpoints/
+
+# Data and logs (adjust if you commit data intentionally)
+data/
+*.csv
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.log
+# Notes:
+# - Installing torch via pip may require selecting a specific build (CUDA vs CPU). For recommended install commands visit https://pytorch.org/.
+# - If you use a virtual environment, activate it before running: `pip install -r requirements.txt`.
+
